@@ -21,6 +21,7 @@ public class LoginTest
     public void doLogin(){
         
         driver.get("https://www.gmail.com");
+        driver.manage().window().maximize();
         driver.findElement(By.id("yDmH0d")).sendKeys("pnambekar@gmail.com");
         
     }
